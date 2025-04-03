@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+}
+.header-info {
+  display: flex;
+  justify-content: end;
+  background-color: rgba(205, 208, 124, 0.101);
+  padding: 6px 20px;
+  width: 100%;
+  border-bottom: 0.8px solid rgb(192, 192, 192);
+}
+.header-info div {
+  padding-left: 12px;
+  font-size: 12px;
+  font-family: nunito;
+}
+.header-info div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.header-search {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  position: relative;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+.left-section {
+  padding: 25px 20px;
+  width: 200px;
+}
+.middle-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+}
+.search-bar {
+  height: 36px;
+  flex: 1;
+  width: 0;
+  font-family: nunito;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
+}
+.search-button {
+  height: 39px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: -1px;
+  border: 1px solid rgb(192, 192, 192);
+  border-left: none;
+}
+.search-icon {
+  width: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.search-icon:hover {
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+  transition: 0.1s;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+}
+.right-section-link {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(103, 103, 103);
+}
+.right-section-link img {
+  width: 26px;
+  padding-bottom: 4px;
+}
+.right-section-link div {
+  font-family: nunito;
+}
+.categories {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  padding-bottom: 15px;
+}
+.categories div {
+  font-family: nunito;
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+  padding-left: 20px;
+}
+.main {
+  position: relative;
+  display: flex;
+}
+.featured-auction-div {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 1200px;
+  width: 100%;
+}
+.featured-auction-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-family: nunito;
+  font-weight: 400;
+  font-size: 26px;
+}
+.scroll-div {
+  display: flex;
+  align-items: center;
+}
+.scroll-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.see-all {
+  font-family: nunito;
+  font-size: 16px;
+  color: rgba(0, 97, 127, 1)
+}
+.see-all:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(13, 13, 93)
+}
+.left-arrow-div {
+  margin-right: 8px;
+  padding-top: 5px;
+}
+.right-arrow-div {
+  padding-top: 5px;
+}
+.left-arrow {
+  height: 40px;
+}
+.right-arrow {
+  height: 40px;
+}
+.two-auction-div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+}
+/*
+.auction-one {
+  width: 50%;
+  display: flex;
+}
+.flex-row {
+  width: calc((100%) * 2/3);
+  position: relative;
+  height: 240px;
+}
+.flex-column {
+  width: calc((100%) * 1/3);
+  display: flex;
+  flex-direction: column;
+}
+.chest-img {
+  width: 280px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center; 
+  height: 100%;
+}
+.crystal-img-div {
+  height: 50%;
+  position: relative;
+}
+.tapestry-img-div {
+  height: 50%;
+  position: relative;
+}
+.crystal-img {
+  width: 150px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.tapestry-img {
+  width: 150px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+*/
+
+.auction-one {
+  width: 50%;
+  display: block;
+  height: 100%;
+  border: 1px solid rgb(192, 192, 192);
+}
+.flex-row {
+  width: calc((100%) * 2/3);
+  display: block;
+  height: 249.31px;
+}
+.chest-img {
+  display: block;
+  float: left;
+  width: 280px;
+}
+.flex-column {
+  width: calc((100%) * 1/3);
+  display: inline-block;
+  height: 249.31px;
+}
+.crystal-img-div {
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+.tapestry-img-div {
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+.crystal-img {
+  width: 150px;
+  margin: auto;
+  display: block;
+}
+.tapestry-img {
+  width: 150px;
+  margin: auto;
+  display: block;
+}
